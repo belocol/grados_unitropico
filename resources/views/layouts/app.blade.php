@@ -15,6 +15,7 @@
 
         <!-- Styles -->
         @livewireStyles
+        <link rel="stylesheet" href="{{ asset ('css/app.css')}}">
     </head>
     <body class="font-sans antialiased">
         <x-jet-banner />

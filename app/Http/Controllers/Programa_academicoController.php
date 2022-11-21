@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
-class CrudController extends Controller
+use App\Models\Programa_academico;
+class Programa_academicoController extends Controller
 {
     /**
      * Display a listing of the resource.
